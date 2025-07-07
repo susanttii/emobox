@@ -2,9 +2,15 @@
   base = "/"
   publish = "dist"
   command = "npm run build"
+  functions = "functions"
 
 [build.environment]
   NODE_VERSION = "18"
 
 [context.production.environment]
   NODE_ENV = "production"
+
+[redirects]
+  /form/*  /form  200
+  /dashboard/*  /dashboard  200
+  /*  /index.html  200
