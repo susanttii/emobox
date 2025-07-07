@@ -10,8 +10,13 @@ import { getFirestore } from 'firebase/firestore';
 
 // Firebase configuration
 const firebaseConfig = {
-  // Add your Firebase configuration here
-  // You'll need to create a Firebase project and add your config
+  apiKey: "YOUR_API_KEY",
+  authDomain: "emobox-dashboard.firebaseapp.com",
+  projectId: "emobox-dashboard",
+  storageBucket: "emobox-dashboard.appspot.com",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 // Initialize Firebase
