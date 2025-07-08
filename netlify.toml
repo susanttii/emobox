@@ -9,11 +9,8 @@
 
 [context.production.environment]
   NODE_ENV = "production"
+  VITE_BASE_URL = "/"
 
 [context.production.build]
   command = "npm run build"
   publish = "dist"
-
-[context.production.environment]
-  NODE_ENV = "production"
-  VITE_BASE_URL = "/"
