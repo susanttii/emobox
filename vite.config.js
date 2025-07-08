@@ -11,7 +11,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html'
-      }
+      },
+      external: ['react', 'react-dom']
     },
     assetsDir: 'assets',
     manifest: true,
