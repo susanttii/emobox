@@ -14,6 +14,9 @@ export default defineConfig({
       }
     },
     assetsDir: 'assets',
-    manifest: true
-  }
+    manifest: true,
+    minify: true,
+    sourcemap: true
+  },
+  publicDir: 'public'
 })
