@@ -24,7 +24,6 @@ const Navbar = () => {
         <Box>
           <Button color="inherit" onClick={() => navigate('/')}>Dashboard</Button>
           <Button color="inherit" onClick={() => navigate('/form')}>
-            Laporkan Emosi
           </Button>
         </Box>
       </Toolbar>
